@@ -1,0 +1,265 @@
+{
+    "id": "rudi",
+    "name": "Rudi",
+    "portrait": "rudi.jpg",
+    "race": "Niziołek",
+    "sex": "mężczyzna",
+    "age": "20",
+    "height": "113",
+    "weight": "45",
+    "hair": "Ciemno rude",
+    "eyes": "Orzechowe",
+    "distinguishing_marks": "kolczyk w nosie",
+    "star_sign": "Dudy",
+    "birthplace": "Stirland",
+    "family": "brat",
+    "career": "Żak",
+    "career_path": "",
+    "disorders": "uzależnienie od alkoholu",
+    "scars": "",
+    "religion": "",
+    "exp": {
+        "total": 690,
+        "spent": 500
+    },
+    "stats": {
+        "main": {
+            "weapon": {
+                "starting": 22,
+                "advance": 0,
+                "taken": 0
+            },
+            "ballistic": {
+                "starting": 39,
+                "advance": 0,
+                "taken": 0
+            },
+            "strength": {
+                "starting": 23,
+                "advance": 0,
+                "taken": 0
+            },
+            "toughness": {
+                "starting": 21,
+                "advance": 0,
+                "taken": 0
+            },
+            "agility": {
+                "starting": 38,
+                "advance": 10,
+                "taken": 2
+            },
+            "intelligence": {
+                "starting": 35,
+                "advance": 10,
+                "taken": 1
+            },
+            "will": {
+                "starting": 31,
+                "advance": 5,
+                "taken": 0
+            },
+            "fellowship": {
+                "starting": 43,
+                "advance": 10,
+                "taken": 0
+            }
+        },
+        "secondary": {
+            "attacks": {
+                "starting": 1,
+                "advance": 0,
+                "taken": 0
+            },
+            "wounds": {
+                "starting": 10,
+                "advance": 2,
+                "taken": 0
+            },
+            "movement": {
+                "starting": 4,
+                "advance": 0,
+                "taken": 0
+            },
+            "magic": {
+                "starting": 0,
+                "advance": 0,
+                "taken": 0
+            },
+            "insanity_points": {
+                "starting": 0,
+                "no_advance": true,
+                "current": 2
+            },
+            "fate_points": {
+                "starting": 3,
+                "no_advance": true,
+                "current": 3
+            }
+        }
+    },
+    "skills": {
+        "basic": {
+            "animal_care": 0,
+            "charm": 1,
+            "command": 0,
+            "concealment": 0,
+            "consume_alcohol": 1,
+            "disguise": 0,
+            "drive": 0,
+            "evaluate": 0,
+            "gamble": 0,
+            "gossip": 1,
+            "haggle": 0,
+            "intimidate": 0,
+            "outdoor_survival": 0,
+            "perception": 1,
+            "ride": 0,
+            "row": 0,
+            "scale_sheer_surface": 0,
+            "search": 0,
+            "silent_move": 0,
+            "swim": 0
+        },
+        "advanced": {
+            "academic_knowledge_genealogyheraldry": 1,
+            "academic_knowledge_science": 1,
+            "academic_knowledge_engineering": 1,
+            "animal_training": 0,
+            "blather": 0,
+            "channelling": 0,
+            "charm_animal": 0,
+            "common_knowledge_halflings": 1,
+            "dodge_blow": 0,
+            "follow_trail": 0,
+            "heal": 1,
+            "hypnotism": 0,
+            "lip_reading": 0,
+            "magical_sense": 0,
+            "navigation": 0,
+            "performer": 1,
+            "pick_lock": 0,
+            "prepare_poison": 0,
+            "readwrite": 1,
+            "sail": 0,
+            "secret_language": 0,
+            "secret_signs": 0,
+            "set_trap": 0,
+            "shadowing": 0,
+            "sleight_of_hand": 0,
+            "speak_language_halfling": 1,
+            "speak_language_reikspiel": 2,
+            "speak_language_classical": 1,
+            "torture": 0,
+            "trade_cook": 1,
+            "ventriloquism": 0
+        }
+    },
+    "talents": {
+        "savvy": 1,
+        "suave": 1,
+        "super_numerate": 1,
+        "seasoned_traveller": 1,
+        "resistance_to_chaos": 1,
+        "coolheaded": 1,
+        "linguistics": 1,
+        "night_vision": 1
+    },
+    "weapons": [
+        {
+            "name": "proca",
+            "group": "sling_grp",
+            "damage": "3",
+            "range": "16/32",
+            "qualities": ["none"],
+            "desc": ""
+        },
+        {
+            "name": "nóż",
+            "group": "ordinary_grp",
+            "damage": "S-3",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Zwykły nóż. Nadaje się do krojenia chleba, smarowania masłem i przecinania ścięgien"
+        },
+        {
+            "name": "sztylet",
+            "group": "ordinary_grp",
+            "damage": "S-3",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Ten sztylet kiedyś był zatruty"
+        },
+        {
+            "name": "6x topór do rzucania",
+            "group": "throwing_grp",
+            "damage": "S-2",
+            "range": "8/-",
+            "qualities": ["none"],
+            "desc": ""
+        },
+        {
+            "name": "puklerz",
+            "group": "parrying_grp",
+            "damage": "S-3",
+            "range": "0",
+            "qualities": ["balanced", "pummelling", "defensive"],
+            "desc": ""
+        }
+    ],
+    "armour": [
+    ],
+    "inventory": [
+        {
+            "name": "Amulet Sigmara z runą szczęścia",
+            "desc": "+1 Szczęście"
+        },
+        {
+            "name": "Pierścień sługi Ranalda",
+            "desc": "Magiczny pierścień o nieznanym działaniu"
+        },
+        {
+            "name": "Księga do Inżynierii"
+        },
+        {
+            "name": "Księga do Nauk Przyrodniczych"
+        },
+        {
+            "name": "Księga z przepisami",
+            "desc": "skarb rodowy"
+        },
+        {
+            "name": "przybory do pisania"
+        },
+        {
+            "name":"gąsior z \"miodem\""
+        },
+        {
+            "name":"beczka z miodem",
+            "desc": "6L"
+        },
+        {
+            "name": "miedziany pierścionek"
+        },
+        {
+            "name": "Książka generała Rudolfa von Middlestaina"
+        },
+        {
+            "name": "Pamiętniki hrabiego"
+        },
+        {
+            "name": "klucz ze skrzyni"
+        },
+        {
+            "name": "Księga Ognistej Zemsty Zbolałego Serca"
+        },
+        {
+            "name": "60 jaj"
+        }
+    ],
+    "coins": {
+        "crowns": 20,
+        "shillings": 18,
+        "pennies": 10
+    }
+}
