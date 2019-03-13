@@ -229,7 +229,7 @@
     "armour": [
         {
             "name": "Skórznia",
-            "locations": "all",
+            "locations": ["all"],
             "ap": 1,
             "desc": "Kiepskiej jakości skórznia, uszkodzona w walce z kultystą Nurghla"
         }
