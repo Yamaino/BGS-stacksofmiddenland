@@ -160,7 +160,8 @@
         "resistance_to_chaos": 1,
         "coolheaded": 1,
         "linguistics": 1,
-        "night_vision": 1
+        "night_vision": 1,
+        "specialist_weapon_group_sling": 1
     },
     "weapons": [
         {
