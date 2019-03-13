@@ -146,10 +146,12 @@
             "set_trap": 0,
             "shadowing": 0,
             "sleight_of_hand": 0,
-            "speak_language": 0,
+            "speak_language_classical": 1,
             "torture": 0,
-            "trade": 0,
-            "ventriloquism": 0
+            "ventriloquism": 0,
+            "trade_miner": 1,
+            "common_knowledge_dwarfs": 1,
+            "speak_language_khazalid": 1
         }
     },
     "talents": {
@@ -224,12 +226,14 @@
             "desc": "Tarcza pozwalająca podeprzeć rusznicę i prowadzić ostrzał zza niej"
         }
     ],
-    "armour": {
+    "armour": [
+        {
             "armour_type": "Skórznia",
             "location": "all",
             "ap": 1,
             "desc": "Kiepskiej jakości skórznia, uszkodzona w walce z kultystą Nurghla"
-    },
+        }
+    ],
     "inventory": [
         {
             "name": "Pierścień Sigmara",
