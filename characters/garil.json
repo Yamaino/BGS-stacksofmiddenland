@@ -1,6 +1,7 @@
 {
     "id": "garil",
     "name": "Garil",
+    "portrait": "https://images-cdn.fantasyflightgames.com/ffg_content/WoWAG/burbon_guest_article/Dwarf-Hunter.png",
     "race": "Krasnolud",
     "sex": "mężczyzna",
     "age": "90",
@@ -18,81 +19,73 @@
     "scars": "Blizna na ustach",
     "background": "Do uzupełnienia",
     "religion": "Grimnir",
+    "exp": {
+        "total": 610,
+        "spent": 600
+    },
     "stats": {
         "main": {
             "weapon": {
                 "starting": 35,
                 "advance": 10,
-                "taken": 2,
-                "current": 45
+                "taken": 2
             },
             "ballistic": {
                 "starting": 30,
                 "advance": 10,
-                "taken": 2,
-                "current": 40
+                "taken": 2
             },
             "strength": {
                 "starting": 32,
                 "advance": 0,
-                "taken": 0,
-                "current": 32
+                "taken": 0
             },
             "toughness": {
                 "starting": 41,
                 "advance": 0,
-                "taken": 0,
-                "current": 41
+                "taken": 0
             },
             "agility": {
                 "starting": 22,
                 "advance": 10,
-                "taken": 1,
-                "current": 27
+                "taken": 1
             },
             "intelligence": {
                 "starting": 36,
                 "advance": 0,
-                "taken": 0,
-                "current": 36
+                "taken": 0
             },
             "will": {
                 "starting": 32,
                 "advance": 5,
-                "taken": 1,
-                "current": 37
+                "taken": 1
             },
             "fellowship": {
                 "starting": 24,
                 "advance": 0,
-                "taken": 0,
-                "current": 24
+                "taken": 0
             }
         },
         "secondary": {
             "attacks": {
                 "starting": 1,
                 "advance": 1,
-                "taken": 0,
-                "current": 1
+                "taken": 0
             },
             "wounds": {
                 "starting": 11,
                 "advance": 2,
-                "taken": 0,
-                "current": 11
+                "taken": 0
             },
             "movement": {
                 "starting": 3,
                 "advance": 0,
-                "taken": 0,
-                "current": 3
+                "taken": 0
             },
             "magic": {
                 "starting": 0,
                 "advance": 0,
-                "taken": 0,
-                "current": 0
+                "taken": 0
             },
             "insanity_points": {
                 "starting": 0,
@@ -158,5 +151,102 @@
             "trade": 0,
             "ventriloquism": 0
         }
+    },
+    "talents": {
+        "rapid_reload": 1,
+        "specialist_weapon_group_various": 1,
+        "dwarfcraft": 1,
+        "sturdy": 1,
+        "resistance_to_magic": 1,
+        "stouthearted": 1,
+        "disarm": 1,
+        "sharpshooter": 1,
+        "mighty_shot": 1,
+        "quick_draw": 1,
+        "grudgeborn_fury": 1,
+        "night_vision": 1
+    },
+    "weapons": [
+        {
+            "name": "rusznica",
+            "group": "gunpowder_grp",
+            "damage": "4",
+            "range": "24/48",
+            "qualities": ["impact","unreliable"],
+            "desc": "przeładowanie 2r"
+        },
+        {
+            "name": "muszkiet",
+            "group": "gunpowder_grp",
+            "damage": "4",
+            "range": "48/96",
+            "qualities": ["impact","unreliable"],
+            "desc": "przeładowanie 2r"
+        },
+        {
+            "name": "muszkiet",
+            "group": "gunpowder_grp",
+            "damage": "4",
+            "range": "48/96",
+            "qualities": ["impact","unreliable"],
+            "desc": "przeładowanie 2r"
+        },
+        {
+            "name": "miecz",
+            "group": "ordinary_grp",
+            "damage": "S",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Zwykły miecz, widział niejedną bitkę"
+        },
+        {
+            "name": "miecz",
+            "group": "ordinary_grp",
+            "damage": "S+1",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Magiczny miecz z trzema runami. Siła (S+1), Ogień (+1 ogień po akrywacji), Moc (Sx2 przeciwko wrogom Odp >=50)"
+        },
+        {
+            "name": "sztylet",
+            "group": "ordinary_grp",
+            "damage": "S-3",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Sztylet do prac precyzyjnych"
+        },
+        {
+            "name": "tarcza",
+            "group": "parrying_grp",
+            "damage": "S-2",
+            "range": "0",
+            "qualities": ["special", "defensive"],
+            "desc": "Tarcza pozwalająca podeprzeć rusznicę i prowadzić ostrzał zza niej"
+        }
+    ],
+    "armour": {
+            "armour_type": "Skórznia",
+            "location": "all",
+            "ap": 1,
+            "desc": "Kiepskiej jakości skórznia, uszkodzona w walce z kultystą Nurghla"
+    },
+    "inventory": [
+        {
+            "name": "Pierścień Sigmara",
+            "desc": "Pierścień z symbolem Sigmara. +5 do Odporności. Koszt dowolnej zdolności: akcja. Nieograniczone, 1PZ na wszystkie lokacje przez 6 rund. Raz dziennie aura odwagi (opanowanie/groza). Dwa razy, płomień wiary (fala trafienie z siłą 3, demony i ożywieńcy z siłą S)"
+        },
+        {
+            "name": "Pociski",
+            "desc": "Pociski do rzucnicy/muszkietu, sztuk 5"
+        },
+        {
+            "name": "Mundur",
+            "desc": "Mundur Imperialnej Gwardii Strzelców"
+        }
+    ],
+    "coins": {
+        "crowns": 16,
+        "shillings": 14,
+        "pennies": 0
     }
 }
