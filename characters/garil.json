@@ -15,9 +15,9 @@
     "birthplace": "Karak Norn",
     "family": "Brak",
     "career_path": "",
-    "disorders": "",
+    "disorders": "agresywny",
     "scars": "Blizna na ustach",
-    "background": "Do uzupełnienia",
+    "background": "Dużą część życia spędził jako wojskowy, niedawno miał awansować do stopnia sierżanta, jednak awans został cofnięty. W tym samym czasie, wezwano go na pogrzeb ojca, którego okoliczności śmierci są conajmniej niejasne.",
     "religion": "Grimnir",
     "exp": {
         "total": 610,
@@ -228,8 +228,8 @@
     ],
     "armour": [
         {
-            "armour_type": "Skórznia",
-            "location": "all",
+            "name": "Skórznia",
+            "locations": "all",
             "ap": 1,
             "desc": "Kiepskiej jakości skórznia, uszkodzona w walce z kultystą Nurghla"
         }
