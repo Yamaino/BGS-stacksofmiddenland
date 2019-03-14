@@ -193,7 +193,20 @@
             "desc": "Zwykły miecz, widział niejedną bitkę"
         }
     ],
-    "armour": [],
+    "armour": [
+        {
+            "name": "Skórzana kurta",
+            "locations": ["body", "arms"],
+            "ap": 1,
+            "desc": ""
+        },
+        {
+            "name": "Kaftan kolczy",
+            "locations": ["body"],
+            "ap": 2,
+            "desc": ""
+        }
+    ],
     "inventory": [
         {
             "name": "Pierścień z wilkiem, symbolem Ulryka",
