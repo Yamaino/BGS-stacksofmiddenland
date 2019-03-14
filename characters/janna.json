@@ -1,0 +1,221 @@
+{
+    "id": "janna",
+    "name": "Janna",
+    "portrait": "https://i.ibb.co/xMGSqhh/janna.jpg",
+    "race": "Krasnolud",
+    "sex": "kobieta",
+    "age": "60",
+    "height": "138",
+    "weight": "55",
+    "hair": "Ciemno rude",
+    "eyes": "Jasnobrązowe",
+    "distinguishing_marks": "bielmo na oku, duże stopy",
+    "star_sign": "Rozbity wóz",
+    "birthplace": "Karak Hirn",
+    "family": "brat",
+    "career": "Woźnica",
+    "career_path": "",
+    "disorders": "",
+    "scars": "",
+    "religion": "",
+    "exp": {
+        "total": 610,
+        "spent": 500
+    },
+    "stats": {
+        "main": {
+            "weapon": {
+                "starting": 52,
+                "advance": 5,
+                "taken": 1
+            },
+            "ballistic": {
+                "starting": 31,
+                "advance": 10,
+                "taken": 2
+            },
+            "strength": {
+                "starting": 28,
+                "advance": 0,
+                "taken": 0
+            },
+            "toughness": {
+                "starting": 38,
+                "advance": 0,
+                "taken": 0
+            },
+            "agility": {
+                "starting": 21,
+                "advance": 10,
+                "taken": 2
+            },
+            "intelligence": {
+                "starting": 31,
+                "advance": 0,
+                "taken": 0
+            },
+            "will": {
+                "starting": 29,
+                "advance": 5,
+                "taken": 0
+            },
+            "fellowship": {
+                "starting": 21,
+                "advance": 5,
+                "taken": 1
+            }
+        },
+        "secondary": {
+            "attacks": {
+                "starting": 1,
+                "advance": 0,
+                "taken": 0
+            },
+            "wounds": {
+                "starting": 13,
+                "advance": 2,
+                "taken": 0
+            },
+            "movement": {
+                "starting": 3,
+                "advance": 0,
+                "taken": 0
+            },
+            "magic": {
+                "starting": 0,
+                "advance": 0,
+                "taken": 0
+            },
+            "insanity_points": {
+                "starting": 0,
+                "no_advance": true,
+                "current": 1
+            },
+            "fate_points": {
+                "starting": 1,
+                "no_advance": true,
+                "current": 1
+            }
+        }
+    },
+    "skills": {
+        "basic": {
+            "animal_care": 1,
+            "charm": 0,
+            "command": 0,
+            "concealment": 0,
+            "consume_alcohol": 0,
+            "disguise": 0,
+            "drive": 1,
+            "evaluate": 0,
+            "gamble": 0,
+            "gossip": 0,
+            "haggle": 1,
+            "intimidate": 0,
+            "outdoor_survival": 0,
+            "perception": 1,
+            "ride": 1,
+            "row": 0,
+            "scale_sheer_surface": 0,
+            "search": 0,
+            "silent_move": 0,
+            "swim": 0
+        },
+        "advanced": {
+            "animal_training": 0,
+            "blather": 0,
+            "channelling": 0,
+            "charm_animal": 0,
+            "common_knowledge_dwarfs": 1,
+            "dodge_blow": 0,
+            "follow_trail": 0,
+            "heal": 0,
+            "hypnotism": 0,
+            "lip_reading": 0,
+            "magical_sense": 0,
+            "navigation": 1,
+            "pick_lock": 0,
+            "prepare_poison": 0,
+            "readwrite": 0,
+            "sail": 0,
+            "set_trap": 0,
+            "secret_signs_ranger": 1,
+            "shadowing": 0,
+            "sleight_of_hand": 0,
+            "speak_language_khazalid": 1,
+            "speak_language_reikspiel": 2,
+            "torture": 0,
+            "trade_smith": 1,
+            "ventriloquism": 0
+        }
+    },
+    "talents": {
+        "dwarfcraft": 1,
+        "sturdy": 1,
+        "seasoned_traveller": 1,
+        "resistance_to_magic": 1,
+        "stouthearted": 1,
+        "grudgeborn_fury": 1,
+        "night_vision": 1,
+        "specialist_weapon_group_gunpowder": 1
+    },
+    "weapons": [
+        {
+            "name": "garłacz",
+            "group": "gunpowder_grp",
+            "damage": "3",
+            "range": "32/-",
+            "qualities": ["shrapnel"],
+            "desc": "Przyjaciel każdego woźnicy. Przeładowanie 3r"
+        },
+        {
+            "name": "nóż",
+            "group": "ordinary_grp",
+            "damage": "S-3",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Zwykły nóż"
+        },
+        {
+            "name": "pałka",
+            "group": "ordinary_grp",
+            "damage": "S",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Kawałek grubej gałęzi okutej stalą"
+        },
+        {
+            "name": "miecz",
+            "group": "ordinary_grp",
+            "damage": "S",
+            "range": "0",
+            "qualities": ["none"],
+            "desc": "Zwykły miecz, widział niejedną bitkę"
+        }
+    ],
+    "armour": [],
+    "inventory": [
+        {
+            "name": "Pierścień z wilkiem, symbolem Ulryka",
+            "desc": "+5 do Krzepy. Umiejętoność stała (1 akcja) Zimowy chłód przez 6 rund wszystkie ataki przeciwnika wykonywane są z modyfikatorem -10%. Raz dziennie Bitweny Szał. 2x Lodowa zamieć - 24m od Bohater pojawia się chmura, wszystkie postacie w promieniu 5m muszą rzucić test siły woli (porażka - ogłuszenie)"
+        },
+        {
+            "name": "Weksel na 25 złotych koron",
+            "desc": "Weksel Kompanii Handlowej"
+        },
+        {
+            "name": "6x amunicja do garłacza"
+        },
+        {
+            "name": "Hubka i krzesiwo"
+        },
+        {
+            "name": "Róg woźnicy"
+        }
+    ],
+    "coins": {
+        "crowns": 20,
+        "shillings": 20,
+        "pennies": 6
+    }
+}
