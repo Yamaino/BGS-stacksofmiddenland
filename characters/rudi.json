@@ -209,7 +209,13 @@
     "inventory": [
         {
             "name": "Amulet Sigmara z runą szczęścia",
-            "desc": "+1 Szczęście"
+            "desc": "+1 Szczęście",
+            "influence": [
+                {
+                    "path": "stats|secondary|fortune_points",
+                    "mod": 1
+                }
+            ]
         },
         {
             "name": "Pierścień sługi Ranalda",

@@ -237,7 +237,13 @@
     "inventory": [
         {
             "name": "Pierścień Sigmara",
-            "desc": "Pierścień z symbolem Sigmara. +5 do Odporności. Koszt dowolnej zdolności: akcja. Nieograniczone, 1PZ na wszystkie lokacje przez 6 rund. Raz dziennie aura odwagi (opanowanie/groza). Dwa razy, płomień wiary (fala trafienie z siłą 3, demony i ożywieńcy z siłą S)"
+            "desc": "Pierścień z symbolem Sigmara. +5 do Odporności. Koszt dowolnej zdolności: akcja. Nieograniczone, 1PZ na wszystkie lokacje przez 6 rund. Raz dziennie aura odwagi (opanowanie/groza). Dwa razy, płomień wiary (fala trafienie z siłą 3, demony i ożywieńcy z siłą S)",
+            "influence": [
+                {
+                    "path": "stats|main|toughness",
+                    "mod": 5
+                }
+            ]
         },
         {
             "name": "Pociski",

@@ -210,7 +210,13 @@
     "inventory": [
         {
             "name": "Pierścień z wilkiem, symbolem Ulryka",
-            "desc": "+5 do Krzepy. Umiejętoność stała (1 akcja) Zimowy chłód przez 6 rund wszystkie ataki przeciwnika wykonywane są z modyfikatorem -10%. Raz dziennie Bitweny Szał. 2x Lodowa zamieć - 24m od Bohater pojawia się chmura, wszystkie postacie w promieniu 5m muszą rzucić test siły woli (porażka - ogłuszenie)"
+            "desc": "+5 do Krzepy. Umiejętoność stała (1 akcja) Zimowy chłód przez 6 rund wszystkie ataki przeciwnika wykonywane są z modyfikatorem -10%. Raz dziennie Bitweny Szał. 2x Lodowa zamieć - 24m od Bohater pojawia się chmura, wszystkie postacie w promieniu 5m muszą rzucić test siły woli (porażka - ogłuszenie)",
+            "influence": [
+                {
+                    "path": "stats|main|strength",
+                    "mod": 5
+                }
+            ]
         },
         {
             "name": "Weksel na 25 złotych koron",
