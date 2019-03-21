@@ -20,7 +20,7 @@
     "religion": "",
     "exp": {
         "total": 690,
-        "spent": 500
+        "spent": 600
     },
     "stats": {
         "main": {
@@ -62,7 +62,7 @@
             "fellowship": {
                 "starting": 43,
                 "advance": 10,
-                "taken": 0
+                "taken": 1
             }
         },
         "secondary": {
