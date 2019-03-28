@@ -25,7 +25,7 @@
     "stats": {
         "main": {
             "weapon": {
-                "starting": 52,
+                "starting": 47,
                 "advance": 5,
                 "taken": 1
             },
