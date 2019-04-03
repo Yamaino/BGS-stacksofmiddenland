@@ -17,11 +17,11 @@
     "career_path": "",
     "disorders": "agresywny",
     "scars": "blizna na ustach",
-    "background": "Dużą część życia spędził jako wojskowy, niedawno miał awansować do stopnia sierżanta, jednak awans został cofnięty. W tym samym czasie, wezwano go na pogrzeb ojca, którego okoliczności śmierci są conajmniej niejasne.",
+    "background": "Dużą część życia spędził jako wojskowy, niedawno miał awansować do stopnia sierżanta, jednak awans został cofnięty. W tym samym czasie, wezwano go na pogrzeb ojca, którego okoliczności śmierci są conajmniej niejasne. \n Zgładzeni: Skaven 4, Pomiot Nurghla 1, Kapłan Nurghla 1, Zwierzoludzie 4, Dzikie bestie 2, Najemnicy 2",
     "religion": "Grimnir",
     "exp": {
-        "total": 610,
-        "spent": 600
+        "total": 770,
+        "spent": 700
     },
     "stats": {
         "main": {
@@ -48,7 +48,7 @@
             "agility": {
                 "starting": 22,
                 "advance": 10,
-                "taken": 1
+                "taken": 2
             },
             "intelligence": {
                 "starting": 36,
@@ -90,7 +90,7 @@
             "insanity_points": {
                 "starting": 0,
                 "no_advance": true,
-                "current": 3
+                "current": 4
             },
             "fate_points": {
                 "starting": 3,
@@ -186,14 +186,6 @@
             "desc": "przeładowanie 2r"
         },
         {
-            "name": "muszkiet",
-            "group": "gunpowder_grp",
-            "damage": "4",
-            "range": "48/96",
-            "qualities": ["impact","unreliable"],
-            "desc": "przeładowanie 2r"
-        },
-        {
             "name": "miecz",
             "group": "ordinary_grp",
             "damage": "S",
@@ -228,16 +220,40 @@
     ],
     "armour": [
         {
-            "name": "Skórznia",
+            "name": "skórznia",
             "locations": ["all"],
             "ap": 1,
-            "desc": "Kiepskiej jakości skórznia, uszkodzona w walce z kultystą Nurghla"
+            "desc": "Skórznia naprawiona przez mistrza Farila"
+        },
+        {
+            "name": "rogaty hełm",
+            "locations": ["head"],
+            "ap": 2,
+            "desc": "Dobrej jakości rogaty hełm"
+        },
+        {
+            "name": "kolczuga",
+            "locations": ["body","arms"],
+            "ap": 2,
+            "desc": "Dobrej jakości kolczuga"
+        },
+        {
+            "name": "nogawice kolcze",
+            "locations": ["legs"],
+            "ap": 2,
+            "desc": "Dobrej jakości nogawice kolcze"
+        },
+        {
+            "name": "naramienniki płytowe",
+            "locations": ["arms"],
+            "ap": 2,
+            "desc": "Dobrej jakości naramienniki, można spokojnie wykorzystywać do taranowania przeszkód"
         }
     ],
     "inventory": [
         {
             "name": "Pierścień Sigmara",
-            "desc": "Pierścień z symbolem Sigmara. +5 do Odporności. Koszt dowolnej zdolności: akcja. Nieograniczone, 1PZ na wszystkie lokacje przez 6 rund. Raz dziennie aura odwagi (opanowanie/groza). Dwa razy, płomień wiary (fala trafienie z siłą 3, demony i ożywieńcy z siłą S)",
+            "desc": "Pierścień z symbolem Sigmara. +5 do Odporności. Koszt dowolnej zdolności: akcja. Nieograniczone, 1PZ na wszystkie lokacje przez 6 rund. Raz dziennie aura odwagi (opanowanie/groza). Raz, płomień wiary (fala trafienie z siłą 3, demony i ożywieńcy z siłą S)",
             "influence": [
                 {
                     "path": "stats|main|toughness",
@@ -246,8 +262,12 @@
             ]
         },
         {
+            "name": "Mikstury leczenia",
+            "desc": "Wypicie leczy 4 punkty lekkich obrażeń, brak efektu jeżeli postać ciężko ranna, sztuk 3"
+        },
+        {
             "name": "Pociski",
-            "desc": "Pociski do rzucnicy/muszkietu, sztuk 5"
+            "desc": "Pociski do rzucnicy/muszkietu, sztuk 25"
         },
         {
             "name": "Mundur",
@@ -255,7 +275,7 @@
         }
     ],
     "coins": {
-        "crowns": 16,
+        "crowns": 4,
         "shillings": 14,
         "pennies": 0
     }
